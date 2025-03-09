@@ -1,0 +1,46 @@
+.my_link {
+    color: red;}
+.my_link:hover {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: rgb(27, 7, 248);
+    cursor:pointer;}
+.my_link:active {
+    color: #21f066;
+    text-decoration: line-through;
+}
+input{
+    color: #4321f0;
+}
+input:focus {
+    color: rgb(0, 255, 21);
+
+}
+p.text:not(:empty){
+    color: #39f021;
+}
+p.text:hover{
+    color: #214af0;
+}
+#my_id:not(:empty){
+    color: #4321f0;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+#my_id::after{
+    color: #214af0;
+    content: '1987' ;
+    text-decoration: underline;
+    text-decoration-color: #f021c0;
+    
+}   
+#my_id::before{
+    content: 'Sulaymonov';
+    color: #4321f0;
+    text-decoration: underline;
+    text-decoration-color: #f021c0;}
+p::first-letter{
+    color: rgb(11, 250, 39);
+}
+
