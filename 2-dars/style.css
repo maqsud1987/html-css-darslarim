@@ -1,0 +1,18 @@
+body {
+    background: #77bfb6 
+    url('https://avatars.mds.yandex.net/i?id=fa5b136d982e723423f61f83440c853519ea8da9-9067891-images-thumbs&n=13')
+     no-repeat ;
+     height: 5000px;
+     background-position:center;
+     background-attachment: fixed;
+}
+.world {
+    color: red;
+}
+.world:hover {
+    color: rgb(239, 239, 240);
+    text-decoration-color: rgb(239, 239, 240);
+}
+.hello {
+    color: #77bfb6;
+}
