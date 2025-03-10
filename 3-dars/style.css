@@ -10,7 +10,10 @@
     word-spacing: 20px;
     letter-spacing: 2px;
     text-decoration: overline;
-    cursor: copy;
-   
-       
-}
+    cursor: copy;}
+    b {
+        color: blue;
+    }
+    .my_style {
+        color: aqua;
+    }
