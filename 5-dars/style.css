@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 2000px;
+}
+#some_block{
+    background: red;
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    cursor: alias;
+    position: fixed;
+    left: 20px;
+    top: 10px;
+}
+#headr, #footr {
+    width: 100%;
+    height: 70px;
+    background: #4a4a4a;
+    border-bottom: 4px silver solid;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    margin-bottom:10% ;
+    float: left;
+}
+#main{
+    width: 50%;
+    margin-left: 25%;
+    background: #d0f0f8;
+    border: 0px silver solid;
+    padding: 20px 2.5%;
+    text-align: center;
+    float: left; /* Tushunmadim*/
+    
+    
+}
+#aside{
+    width: 20%;
+    border: 0px solid silver;
+    background: blue;
+    padding: 20px 2.5%;
+    float: left; /* Tushunmadim*/
+    /*margin-left: 5%;*/
+    position: relative;
+
+}
+
+#footr{
+    margin-bottom: 0;
+    margin-top: 10%;
+    border-bottom: 0;
+    border-top:4px silver solid; ;
+}
