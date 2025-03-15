@@ -29,6 +29,9 @@ body{
     margin-bottom:5% ;
     float: left;
 }
+#headr:hover{
+    color: blue;
+}
 #nav{
     list-style: none;
     display: block;
@@ -60,7 +63,7 @@ body{
 }
 #main{
     width: 50%;
-    margin-left: 25%;
+    margin-left: 15%;
     background: #fff;
     border: 1px silver solid;
     padding: 20px 2.5%;
@@ -68,18 +71,34 @@ body{
     float: left; /* Tushunmadim*/
     position: relative;
     z-index: 1;
-    
-    
+      
+   
+}
+#main:hover{
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #515050;
+
 }
 #aside{
     width: 10%;
-    border: 0px solid silver;
-    background: blue;
+    border: 1px solid silver;
+    background: #fff;
     padding: 20px 2.5%;
     float: left; /* Tushunmadim*/
     
-    margin-left: -15px;
+    margin-left: 15px;
     z-index: 0;
+
+}
+#aside:hover{
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #515050;
 
 }
 
@@ -88,4 +107,7 @@ body{
     margin-top: 10%;
     border-bottom: 0;
     border-top:4px silver solid; ;
+}
+#footr:hover{
+    color: blue;
 }
