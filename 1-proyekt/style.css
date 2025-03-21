@@ -1,0 +1,62 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#4caaed ;
+}
+.container{
+    width: 1000px;
+    margin: 100px auto 0;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: "Boldonse", system-ui;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.625);
+}
+img{
+    width: 90px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.item{
+    width: 33.3%;
+    text-align: center;
+    padding: 20px;
+}
+.item .item-text{
+    font-size: 23px;
+    text-transform: unset;
+    letter-spacing: 1px;
+    color: #49715D;
+    font-weight: bold;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.item .item-name{
+    color: rgb(16, 174, 247);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.item .item-price{
+    font-size: 15px;
+    font-weight:500 ;
+    color: rgb(16, 174, 247);
+}
+.item-price span{
+    font-size: 35px;
+}
+.item-price span sup{
+    font-size: 15px; 
+}
+.item:hover{
+    background-color: #c3dbcf;
+    cursor: pointer;
+}
